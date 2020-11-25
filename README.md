@@ -26,3 +26,9 @@ if(hasPermissions) {
 Note:
 
 As of Deno 1.5 the --unstable flag is required in order to use the permissions API
+
+Note 2:
+
+For running tests use
+
+> deno test --unstable --allow-read
