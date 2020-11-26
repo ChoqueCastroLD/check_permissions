@@ -4,6 +4,8 @@ A Deno module to check permissions
 Usage:
 
 ```typescript
+import { checkPermissions } from "https://deno.land/x/check_permissions@1.0/mod.ts";
+
 // Check for permissions
 await checkPermissions(["read", "env"]);
 // If permissions are not granted it will throw a message like this
